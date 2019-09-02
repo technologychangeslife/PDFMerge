@@ -1,0 +1,21 @@
+bhge_digital_binder.article_list:
+  path: '/digital-binder'
+  defaults:
+    _controller: '\Drupal\bhge_digital_binder\Controller\DigitalController::page'
+    _title: 'Our custom Article list'
+  requirements:
+    _permission: 'access content'
+bhge_digital_binder.form:
+  path: '/digital-binder-form'
+  defaults:
+    _title: 'Digital Binder Form'
+    _form: '\Drupal\bhge_digital_binder\Form\DigitalBinderForm'
+  requirements:
+    _permission: 'access content'
+bhge_digital_binder.simple_form:
+  path: '/simple-form'
+  defaults:
+    _form:  '\Drupal\bhge_digital_binder\Form\SimpleForm'
+    _title: 'Simple Form Example'
+  requirements:
+    _permission: 'access content'
